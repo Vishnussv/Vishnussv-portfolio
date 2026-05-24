@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vishnu Vardan S S — Freelance Web Developer, Lead Team Management at LMV System Company, ethical hacking enthusiast." />
+  <title>Vishnu Vardan S S | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <div id="loader" class="loader">
+    <div class="loader-inner">
+      <span class="loader-tag">Initializing</span>
+      <h1 class="loader-title">VISHNU<span class="accent">.</span></h1>
+      <div class="loader-track"><div class="loader-fill"></div></div>
+      <span class="loader-pct" id="loaderPct">0%</span>
+    </div>
+  </div>
+
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <header class="header" id="header">
+    <a href="#home" class="brand">V<span class="accent">V</span>S</a>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="mailto:vishnussv25@gmail.com" class="nav-cta">Hire Me</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+    <a href="mailto:vishnussv25@gmail.com">vishnussv25@gmail.com</a>
+  </div>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="scene-3d" id="scene3d" aria-hidden="true">
+        <div class="scene-3d-inner" id="scene3dInner">
+          <div class="cube-3d">
+            <div class="cube-face front"><span>&lt;/&gt;</span></div>
+            <div class="cube-face back"><span>VV</span></div>
+            <div class="cube-face right"><span>AI</span></div>
+            <div class="cube-face left"><span>{}</span></div>
+            <div class="cube-face top"></div>
+            <div class="cube-face bottom"></div>
+          </div>
+          <div class="ring-3d ring-a"></div>
+          <div class="ring-3d ring-b"></div>
+          <div class="ring-3d ring-c"></div>
+          <div class="orb-3d orb-1"></div>
+          <div class="orb-3d orb-2"></div>
+          <div class="orb-3d orb-3"></div>
+        </div>
+      </div>
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+      <div class="hero-orbit" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="hero-content-3d" id="heroContent3d">
+      <div class="hero-content">
+        <p class="hero-eyebrow reveal">
+          <span class="pulse-dot"></span>
+          Freelance Web Developer · Lead Team Management · LMV System Company
+        </p>
+        <h1 class="hero-name reveal">
+          <span class="line">Vishnu</span>
+          <span class="line outline">Vardan</span>
+          <span class="line accent-text">S S</span>
+        </h1>
+        <p class="hero-desc reveal">
+          I build real software, explore ethical hacking, and blend code with creative design.
+          <span id="typewriter"></span><span class="caret"></span>
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+        <div class="hero-contact reveal">
+          <a href="mailto:vishnussv25@gmail.com">vishnussv25@gmail.com</a>
+          <span class="sep">|</span>
+          <a href="tel:+919159468574">+91 9159468574</a>
+        </div>
+      </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <div class="marquee-wrap" aria-hidden="true">
+      <div class="marquee">
+        <span>HTML · CSS · JavaScript · AJAX · React · Flask · Cloud Computing · Python · MySQL · Networking · ChatGPT ·</span>
+        <span>HTML · CSS · JavaScript · AJAX · React · Flask · Cloud Computing · Python · MySQL · Networking · ChatGPT ·</span>
+      </div>
+    </div>
+
+    <section class="mask-band">
+      <div class="mask-inner">
+        <h2 class="mask-word" id="maskWord">DEVELOPER</h2>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="label">Profile</span>
+          <h2>About <em>Me</em></h2>
+        </header>
+        <div class="about-layout">
+          <div class="about-card reveal tilt-3d">
+            <div class="avatar-ring">
+              <div class="avatar">
+                <img src="assets/profile.png" alt="Vishnu Vardan S S" width="200" height="200" />
+              </div>
+            </div>
+            <h3>Vishnu Vardan S S</h3>
+            <p class="role">Freelance Web Developer</p>
+            <p class="role role-sub">Lead Team Management · LMV System Company</p>
+            <ul class="about-meta">
+              <li><strong>Freelance</strong> Web Developer</li>
+              <li><strong>Current Role</strong> Lead Team Management</li>
+              <li><strong>Company</strong> LMV System Company</li>
+              <li><strong>College</strong> NPA Centenary Polytechnic College</li>
+              <li><strong>Duration</strong> Jan 2024 – Jan 2027</li>
+              <li><strong>Score</strong> 70%</li>
+              <li><strong>LinkedIn</strong> <a href="https://www.linkedin.com/in/vishnu-vardan-289025403" target="_blank" rel="noopener noreferrer">vishnu-vardan-289025403</a></li>
+            </ul>
+          </div>
+          <div class="about-text">
+            <p class="reveal">
+              Dedicated Diploma in Computer Science student with a solid foundation in programming concepts,
+              web development, and creative digital tools. I work as a <strong>Freelance Web Developer</strong>, building
+              responsive websites and web applications for clients, and currently serve as <strong>Lead Team Management</strong> at
+              <strong>LMV System Company</strong>, leading teams in a professional IT environment.
+              Experienced in using Canva, video editing,
+              and graphic design for academic and personal projects. Known for quick learning, attention to detail,
+              and a strong desire to build technical and creative skills.
+            </p>
+            <p class="reveal highlight-box">
+              I am interested in <strong>ethical hacking</strong> and learning how to protect systems from cyber threats.
+              I am exploring basic cybersecurity concepts, common vulnerabilities, and beginner tools used in ethical hacking.
+              I enjoy understanding how systems work and how to keep them safe, and I want to develop more skills in this field
+              as I continue my studies.
+            </p>
+            <div class="stats reveal">
+              <div class="stat-card tilt-3d"><span class="stat-num" data-count="4">0</span><span class="stat-label">Projects</span></div>
+              <div class="stat-card tilt-3d"><span class="stat-num" data-count="17">0</span><span class="stat-label">Programming Skills</span></div>
+              <div class="stat-card tilt-3d"><span class="stat-num" data-count="70">0</span><span class="stat-label">Percentage</span></div>
+              <div class="stat-card tilt-3d"><span class="stat-num" data-count="3">0</span><span class="stat-label">Languages</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="label">Expertise</span>
+          <h2>Skills & <em>Tools</em></h2>
+        </header>
+        <div class="skills-grid">
+          <div class="skill-panel reveal tilt-3d">
+            <h3>Programming Skills</h3>
+            <div class="skill-list" id="progSkills">
+              <div class="skill-item" data-level="95"><span>HTML</span><em>Advance</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="95"><span>CSS</span><em>Advance</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="90"><span>JavaScript</span><em>Advance</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="50"><span>AJAX</span><em>Basics</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="70"><span>MySQL</span><em>Intermediate</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="70"><span>Python</span><em>Intermediate</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="70"><span>Cloud Computing</span><em>Intermediate</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="45"><span>C</span><em>Basics</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="45"><span>C++</span><em>Basics</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="40"><span>PHP</span><em>Intermediate</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="40"><span>Java</span><em>Intermediate</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="50"><span>UI/UX</span><em>Basics</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="50"><span>Networking</span><em>Intermediate</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="55"><span>ChatGPT Prompting</span><em>Intermediate</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="50"><span>React</span><em>Basics</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="50"><span>Flask</span><em>Basics</em><div class="bar"><div class="fill"></div></div></div>
+              <div class="skill-item" data-level="50"><span>Socket.IO</span><em>Basics</em><div class="bar"><div class="fill"></div></div></div>
+            </div>
+          </div>
+          <div class="skill-panel reveal tilt-3d">
+            <h3>Additional Skills</h3>
+            <div class="chip-cloud" id="chipCloud">
+              <span class="chip" data-level="70">Canva — Intermediate</span>
+              <span class="chip" data-level="40">Video Editing — Basics</span>
+              <span class="chip" data-level="40">Graphic Design — Basics</span>
+              <span class="chip" data-level="40">Photoshop — Basics</span>
+              <span class="chip" data-level="50">Networking — Basics</span>
+              <span class="chip" data-level="55">ChatGPT Prompting — Intermediate</span>
+              <span class="chip" data-level="50">AJAX — Basics</span>
+              <span class="chip" data-level="50">React — Basics</span>
+              <span class="chip" data-level="50">Flask — Basics</span>
+              <span class="chip" data-level="50">Socket.IO — Basics</span>
+              <span class="chip" data-level="70">Cloud Computing — Intermediate</span>
+              <span class="chip" data-level="55">Ethical Hacking — Learning</span>
+              <span class="chip" data-level="55">Cybersecurity — Exploring</span>
+            </div>
+            <h3 class="lang-head">Languages</h3>
+            <div class="lang-cards">
+              <div class="lang-card reveal"><span>Tamil</span><small>Native</small></div>
+              <div class="lang-card reveal"><span>English</span><small>Fluent</small></div>
+              <div class="lang-card reveal"><span>Hindi</span><small>Average</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="tech-orbit reveal" id="techOrbit" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <header class="section-head reveal section-head-3d">
+          <span class="label">Portfolio</span>
+          <h2 class="text-3d">Featured <em>Projects</em></h2>
+        </header>
+        <article class="project-card reveal" data-tilt>
+          <div class="project-num">01</div>
+          <div class="project-body">
+            <h3>My Gen AI Agent for Secure DevOps</h3>
+            <p>
+              Developed a Generative AI-powered DevOps agent that scans cloud configurations, detects security risks,
+              and automatically applies secure fixes during deployment.
+            </p>
+            <ul>
+              <li>Integrated the AI agent into the CI/CD pipeline to enforce secure-by-default rules</li>
+              <li>Reduced manual configuration errors and improved cloud security</li>
+              <li>Automated risk detection before production deployment</li>
+            </ul>
+            <div class="tags">
+              <span>Generative AI</span><span>DevOps</span><span>CI/CD</span><span>Cloud Security</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="project-num">02</div>
+          <div class="project-body">
+            <h3>J.A.R.V.I.S AI Desktop Assistant</h3>
+            <p>
+              Designed and developed a real-time AI desktop assistant with voice and gesture-based interaction,
+              animated UI, and full system integration.
+            </p>
+            <ul>
+              <li>Built a responsive React UI with animated visual feedback and multiple interface themes</li>
+              <li>Implemented a Flask backend with Socket.IO for real-time communication</li>
+              <li>Enabled system-level controls: volume, brightness, shutdown, and lock</li>
+              <li>Displayed live CPU, memory, and disk usage metrics</li>
+              <li>Integrated APIs for weather, news, and online information search</li>
+              <li>Stored reminders, notes, and settings using SQLite</li>
+              <li>Packaged and deployed as a standalone executable using PyInstaller</li>
+            </ul>
+            <div class="tags">
+              <span>Python</span><span>React</span><span>Flask</span><span>Socket.IO</span><span>SQLite</span><span>PyInstaller</span>
+            </div>
+          </div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="project-num">03</div>
+          <div class="project-body">
+            <h3>Habit Tracker App</h3>
+            <p>
+              Built a habit tracker application to help users create daily routines, log progress, and stay consistent
+              with their goals through a clean, easy-to-use interface.
+            </p>
+            <ul>
+              <li>Designed a responsive UI for adding, editing, and managing daily habits</li>
+              <li>Implemented streak tracking and progress visualization to motivate consistency</li>
+              <li>Enabled habit completion logging with date-based history</li>
+              <li>Integrated Supabase for data storage and deployed live on Vercel</li>
+              <li>Focused on simple navigation and a smooth user experience across devices</li>
+            </ul>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Supabase</span><span>Vercel</span><span>UI/UX</span>
+            </div>
+            <a class="project-link" href="https://habit-tracker-supabase-app.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo →</a>
+          </div>
+        </article>
+        <article class="project-card reveal" data-tilt>
+          <div class="project-num">04</div>
+          <div class="project-body">
+            <h3>AI Chatbot System for College</h3>
+            <p>
+              Developed an AI chatbot system for <strong>NPA Centenary Polytechnic College</strong> to help clients and
+              visitors access college details instantly through an interactive chat interface built with PHP.
+            </p>
+            <ul>
+              <li>Built a PHP-based chatbot to answer questions about college information for clients</li>
+              <li>Designed an easy-to-use interface for visitors to explore courses, admissions, and college details</li>
+              <li>Automated responses to common queries, reducing manual support effort</li>
+              <li>Stored college data using a local database for fast, offline-friendly access</li>
+              <li>Deployed for college use to improve communication with students and visitors</li>
+            </ul>
+            <div class="tags">
+              <span>PHP</span><span>AI</span><span>Chatbot</span><span>Local DB</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section education">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="label">Background</span>
+          <h2>Education & <em>Experience</em></h2>
+        </header>
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card timeline-card--current">
+              <span class="timeline-badge timeline-badge--current">Freelancing</span>
+              <h3>Freelance Web Developer</h3>
+              <p class="school">Independent · Available for projects</p>
+              <ul class="timeline-list">
+                <li>Designing and developing responsive websites for clients</li>
+                <li>Building web apps using HTML, CSS, JavaScript, and modern frameworks</li>
+                <li>Delivering clean UI, fast performance, and mobile-friendly layouts</li>
+                <li>Handling client requirements from concept to deployment</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card timeline-card--current">
+              <span class="timeline-badge timeline-badge--current">Currently Working</span>
+              <h3>Lead Team Management — LMV System Company</h3>
+              <p class="school">LMV System Company · Present</p>
+              <ul class="timeline-list">
+                <li>Leading and managing team operations at LMV System Company</li>
+                <li>Coordinating tasks, guiding team members, and ensuring smooth project workflow</li>
+                <li>Supporting communication between team members and project goals</li>
+                <li>Applying leadership, technical, and problem-solving skills in a professional setting</li>
+                <li>Grew from intern to a lead team management role within the same company</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-badge">Education</span>
+              <span class="timeline-date">Jan 2024 – Jan 2027</span>
+              <h3>Diploma in Computer Engineering</h3>
+              <p class="school">NPA Centenary Polytechnic College</p>
+              <p class="score">Percentage: <strong>70%</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="label">Let's Talk</span>
+          <h2>Get In <em>Touch</em></h2>
+        </header>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>Available for <strong>freelance web development</strong> projects, collaborations, and tech conversations about development and cybersecurity.</p>
+            <a class="contact-link" href="mailto:vishnussv25@gmail.com">
+              <span class="icon">✉</span>
+              vishnussv25@gmail.com
+            </a>
+            <a class="contact-link" href="tel:+919159468574">
+              <span class="icon">☎</span>
+              +91 9159468574
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/vishnu-vardan-289025403" target="_blank" rel="noopener noreferrer">
+              <span class="icon icon-linkedin">in</span>
+              linkedin.com/in/vishnu-vardan-289025403
+            </a>
+            <div class="social-links reveal">
+              <a class="social-btn" href="https://www.linkedin.com/in/vishnu-vardan-289025403" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required placeholder="Your name" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required placeholder="you@email.com" />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" required placeholder="Your message..."></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Vishnu Vardan S S · Freelance Web Developer. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/vishnu-vardan-289025403" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+    <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
